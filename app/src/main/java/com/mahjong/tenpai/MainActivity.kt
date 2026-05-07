@@ -117,7 +117,7 @@ private fun analyzeTenpai(input: String): List<String> {
         if (win != null) {
             val remaining = 4 - hand[t]
             val meldStr = win.melds.joinToString(" ")
-            results.add("$t -> $meldStr ${win.pair} ($remaining)")
+            results.add("$t ➡️ $meldStr ${win.pair} ($remaining)")
         }
     }
 
